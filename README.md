@@ -3,20 +3,22 @@ Getting Started
 
 2. To get started, fork this repository to your GitHub account.
 
-Clone the repo : 
+3. Clone the repo : 
 
- git clone https://github.com/aasis2002/E-Commerce.git
+" git clone https://github.com/aasis2002/E-Commerce.git
+ 
 (optional) Create and activate a virtualenv (you may want to use virtualenvwrapper).
 
-Install dependencies:
+4. Install dependencies:
 
- pip install -r requirements.txt
-Create a development database:
+ " pip install -r requirements.txt "
+ 
+5. Create a development database:
 
-  python manage.py migrate
+  " python manage.py migrate "
 If everything is alright, you should be able to start the Django development server:
 
-  python manage.py runserver
+ 6. " python manage.py runserver "
 Open your browser and go to http://127.0.0.1:8000, you will be greeted with a welcome page.
 
 Generate fake data
